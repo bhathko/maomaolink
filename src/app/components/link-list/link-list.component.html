@@ -1,0 +1,16 @@
+<div class="content">
+  <ul>
+    <li *ngFor="let link of linkList" class="link-block">
+      <a [href]="link.url" target="_blank">
+        <div class="link-layout">
+          <img
+            class="social-icon"
+            [src]="link.imageUrl"
+            [ngClass]="{'rotation': link.isCoin, 'jelly': !link.isCoin}"
+            alt="social-icon">
+          <div>{{link.title}}</div>
+        </div>
+      </a>
+    </li>
+  </ul>
+</div>

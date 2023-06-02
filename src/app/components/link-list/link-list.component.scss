@@ -1,0 +1,63 @@
+.content {
+  ul {
+    list-style: none;
+    .link-block {
+      border: 1px solid #333;
+      border-radius: 1rem;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      a {
+        text-decoration: none;
+        font-family: 'Cute-Font', sans-serif;
+        color: #333;
+        .link-layout {
+          display: flex;
+          align-items: center;
+          .social-icon {
+            width: 40px;
+            height: 40px;
+            margin-right: 1rem;
+          }
+          .rotation {
+            animation: rotation 1s infinite;
+          }
+          .jelly {
+            animation: jelly 3s infinite;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+@keyframes jelly {
+
+  0%,
+  100% {
+      transform: scale(1, 1) rotate(-3deg);  //rotate保持爱心方向
+  }
+
+  25%,
+  75% {
+      transform: scale(0.9, 1.1) rotate(3deg);
+  }
+
+  50% {
+      transform: scale(1.1, 0.9) rotate(-3deg);
+  }
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate3d(0, 1, 0, 0deg);
+  }
+  50% {
+    transform: rotate3d(0, 1, 0, 45deg);
+  }
+  100% {
+    transform: rotate3d(0, 1, 0, 0deg);
+  }
+}

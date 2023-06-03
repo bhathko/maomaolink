@@ -6,6 +6,9 @@
       border-radius: 1rem;
       padding: 1rem;
       margin-bottom: 1rem;
+      &:hover {
+        transform: scale(1.02);
+      }
       a {
         text-decoration: none;
         font-family: 'Cute-Font', sans-serif;
@@ -16,7 +19,7 @@
           .social-icon {
             width: 40px;
             height: 40px;
-            margin-right: 2rem;
+            margin-right: 1.5rem;
           }
           .rotation {
             animation: rotation 1s infinite;

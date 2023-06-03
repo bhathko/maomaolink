@@ -9,6 +9,12 @@
     overflow: hidden;
     border-radius: 75px;
     border: 1px solid #cecdd2;
+    position: relative;
+    img {
+      position: absolute;
+      left: -15px;
+      top: -15px;
+    }
   }
   .name {
     font-size: 32px;

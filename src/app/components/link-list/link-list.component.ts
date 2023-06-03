@@ -21,15 +21,21 @@ export class LinkListComponent {
 
     },
     {
-      title: '毛線兒 の Facebook',
-      imageUrl: 'assets/facebook-logo.svg',
-      url:'https://www.facebook.com/profile.php?id=100069145989915',
-      isCoin: false
-    },
-    {
       title: '毛線兒 の Youtube',
       imageUrl: 'assets/youtube-logo.svg',
       url: 'https://www.youtube.com/@gingergirl1220',
+      isCoin: false
+    },
+    {
+      title: '毛線兒 の 週邊貼圖',
+      imageUrl: 'assets/line-logo.svg',
+      url: 'https://store.line.me/stickershop/author/800360/zh-Hant',
+      isCoin: false
+    },
+    {
+      title: '毛線兒 の Facebook',
+      imageUrl: 'assets/facebook-logo.svg',
+      url:'https://www.facebook.com/profile.php?id=100069145989915',
       isCoin: false
     },
   ]

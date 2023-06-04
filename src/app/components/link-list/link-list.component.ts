@@ -26,12 +26,12 @@ export class LinkListComponent {
       url: 'https://www.youtube.com/@gingergirl1220',
       isCoin: false
     },
-    {
-      title: '毛線兒 の 週邊貼圖',
-      imageUrl: 'assets/line-logo.svg',
-      url: 'https://store.line.me/stickershop/author/800360/zh-Hant',
-      isCoin: false
-    },
+    // {
+    //   title: '毛線兒 の 週邊貼圖',
+    //   imageUrl: 'assets/line-logo.svg',
+    //   url: 'https://store.line.me/stickershop/author/800360/zh-Hant',
+    //   isCoin: false
+    // },
     {
       title: '毛線兒 の Facebook',
       imageUrl: 'assets/facebook-logo.svg',
